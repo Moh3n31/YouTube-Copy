@@ -1,0 +1,32 @@
+html {
+  font-family: Roboto, Arial, sans-serif;
+  margin-right: 25px;
+}
+
+body {
+  margin: 0;
+  padding-top: 145px;
+  padding-left: 95px;
+}
+
+p {
+  margin: 0 0 4px 0;
+}
+
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: rgb(85, 85, 85);
+  border-radius: 10px;
+  background-clip: content-box;
+  border: 4px solid transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(138, 138, 138);
+  background-clip: content-box;
+  border: 4px solid transparent;
+}
